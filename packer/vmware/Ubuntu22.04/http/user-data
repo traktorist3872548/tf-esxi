@@ -18,12 +18,12 @@ autoinstall:
     identity:
         hostname: ubuntu-server
         username: ubuntu
-        password: "$6$rounds=4096$ntlX/dlo6b$HXaLN4RcLIGaEDdQdR2VTYi9pslSeXWL131MqaakqE285Nv0kW9KRontQYivCbycZerUMcjVsuLl2V8bbdadI1"
+        password: "$6$rounds=4096$514vd57ivxqy9rr8$gZe8HPLRLv4bleAMRzPiDEQQ7c5V7f1P1VK.RBLrp5LwCnvzkRvRP1a794vtnouQrKFTfY7HjOMmntwlgwN7T0"
     ssh:
         install-server: yes
         allow-pw: yes
         authorized-keys:
-            - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCb7fcDZfIG+SxuP5UsZaoHPdh9MNxtEL5xRI71hzMS5h4SsZiPGEP4shLcF9YxSncdOJpyOJ6OgumNSFWj2pCd/kqg9wQzk/E1o+FRMbWX5gX8xMzPig8mmKkW5szhnP+yYYYuGUqvTAKX4ua1mQwL6PipWKYJ1huJhgpGHrvSQ6kuywJ23hw4klcaiZKXVYtvTi8pqZHhE5Kx1237a/6GRwnbGLEp0UR2Q/KPf6yRgZIrCdD+AtOznSBsBhf5vqcfnnwEIC/DOnqcOTahBVtFhOKuPSv3bUikAD4Vw7SIRteMltUVkd/O341fx+diKOBY7a8M6pn81HEZEmGsr7rT ubuntu@ubuntu.local
+            - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2B7BK0/Adi4tQVXmRobJON88mPK9ELwY4eSDFvW7hDoDJ5VwwPQ6vw1NATwBG41pFm+e+eNkJwBtt29BeBpaofoVZ/5AuNMhyhOapelJOMhhwXG/FR7cKGjjfo9yWOor7F3t/jgjn6drdVTWh0k9+v92594EUehUIBk/ldxNx/g1UEOSonfK2kT4JBhYEUaC/wkkO7VtP3OM4EQREKddxSodDK2j2NFomBy4KUdLNZvYC/rJooqV0OBOSEqK+PeiXBuQVNewPsjw29vLWKMZCFPsYRQfWQ1vwljvGc45MhLWALkbw62ooY7RPYHEvW1Xlt0ccbigakChQsHKGS2HN ubuntu@ubuntu.local
     storage:
         layout:
             name: direct
